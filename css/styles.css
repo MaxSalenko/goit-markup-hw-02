@@ -1,0 +1,146 @@
+.list{
+list-style: none;
+}
+
+.link{
+    text-decoration:none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+
+.address-list-item {
+list-style: none;
+}
+
+.address-list-link {
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+color: #404BBF;
+}
+
+.header-nav-item {
+
+}
+.header-nav-link {
+
+}
+.header-nav-link:hover, 
+.header-nav-link:focus {
+color: #404BBF;
+}
+
+.logo-header {
+    text-decoration: none;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
+.header-logo-dark {
+    color: #2E2F42;
+}
+
+.footer-logo {
+        text-decoration: none;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4D5AE5;
+}
+
+.footer-logo-white {
+    color: #F4F4FD;
+}
+
+
+.section-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+   
+}
+
+.main-page-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+
+}
+
+.main-title-images {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2E2F42;
+
+}
+ 
+.hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+   /* color: #FFFFFF; */
+    }
+    
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404BBF;
+    color:#FFFFFF;
+}
+
+.menu-item-button:hover,
+.menu-item-button:focus {
+background: #404BBF;
+color:#FFFFFF;
+cursor: pointer;
+}
+
+
+.header-button-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+color: #2E2F42;
+
+}
+
+.header-button-link:hover,
+.header-button-link:focus{
+   color:#404BBF;
+}

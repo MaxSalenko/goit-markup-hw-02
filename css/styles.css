@@ -5,12 +5,21 @@ list-style: none;
 .link{
     text-decoration:none;
 }
+:root {
 
-body {
-    font-family: 'Roboto', sans-serif;
+--slate:#434455;
+--ocean: #404BBF;
+--iris:#4D5AE5;
+--navy-blue:#2E2F42;
+--white:#FFFFFF;
+--cloud:#F4F4FD;
+--Cornflower:#E7E9FC;
+
+}
+body {font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
-
+    
 /*===============Header=================*/
 
 .address-list-item {
@@ -19,16 +28,15 @@ list-style: none;
 
 .address-list-link {
     text-decoration: none;
-    font-family: inherit;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--slate);
 }
 
 .address-list-link:hover,
 .address-list-link:focus {
-color: #404BBF;
+color: var(--ocean);
 }
 
 .header-nav-item {
@@ -39,40 +47,37 @@ color: #404BBF;
 }
 .header-nav-link:hover, 
 .header-nav-link:focus {
-color: #404BBF;
+color: var(--ocean);
 }
 
 .logo-header {
     text-decoration: none;
-    font-family: 'Raleway';
-        font-style: normal;
+    font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: var(--iris);
 }
 
 .header-logo-dark {
-    color: #2E2F42;
+    color: var(--navy-blue);
 }
 
 
 .header-button-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy-blue);
 
 }
 
 .header-button-link:hover,
 .header-button-link:focus {
-    color: #404BBF;
+    color: var(--ocean);
 }
 
 /*===============Header=================*/
@@ -80,59 +85,80 @@ color: #404BBF;
 
 /*===============Main===================*/
 
+.main-section{
+    background: var(--navy-blue);
+}
 
 .section-title {
-  font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
    
 }
 
 .main-page-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
+letter-spacing: 0.02em;
+color: var(--slate);
 
 }
 
+.main-title-portfolio{
+    font-size: 56px;
+    line-height: 1.0;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.main-title{
+        font-size: 56px;
+        line-height: 1.0;
+        letter-spacing: 0.02em;
+        color: var(--white);
+}
+
 .main-title-images {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    color: #2E2F42;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 
 }
  
 .hero-button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-   /* color: #FFFFFF; */
+    background: var(--iris);
+    color: var(--white); 
     }
     
 
 .hero-button:hover,
 .hero-button:focus {
-    background: #404BBF;
-    color:#FFFFFF;
+    background: var(--ocean);
+    color:var(--white);
 }
-
+.menu-item-button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--white);
+    color: var(--iris);
+        
+}
 .menu-item-button:hover,
 .menu-item-button:focus {
-background: #404BBF;
-color:#FFFFFF;
+background: var(--ocean);
+color:var(--white);
 cursor: pointer;
 }
  
@@ -142,18 +168,28 @@ cursor: pointer;
 /*===============Footer=================*/
 .footer-logo {
     text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway',sans-serif; 
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris);
 }
 
 .footer-logo-white {
-    color: #F4F4FD;
+    color: var(--cloud)
+}
+
+.page-footer{
+background: var(--navy-blue);
+}
+
+.text-footer{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Cornflower);
 }
 
 /*===============Footer=================*/

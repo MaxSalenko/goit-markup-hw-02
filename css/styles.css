@@ -42,12 +42,12 @@ list-style: none;
 color: var(--ocean);
 }
 
-.header-nav-item {
+/* .header-nav-item {
 
 }
 .header-nav-link {
 
-}
+} */
 .header-nav-link:hover, 
 .header-nav-link:focus {
 color: var(--ocean);
